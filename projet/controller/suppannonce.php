@@ -19,9 +19,9 @@ require_once '../modele/suppannonce.php';
 //connexion a la base de donnee
 
 $servername = "localhost";
-$username = "qgkkqhfn_root";
-$password = "Grootr00to";
-$database = "qgkkqhfn_site";
+$username = "root";
+$password = "root";
+$database = "site";
 
 $compteModel = new CompteModel($servername, $username, $password, $database);
 

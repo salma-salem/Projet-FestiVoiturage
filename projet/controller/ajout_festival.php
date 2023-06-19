@@ -34,9 +34,9 @@ $login = $_SESSION['username'];
 
 //information pour la connexion a la base de donnee
 $servername = "localhost";
-$username = "qgkkqhfn_root";
-$password = "Grootr00to";
-$database = "qgkkqhfn_site";
+$username = "root";
+$password = "root";
+$database = "site";
 
 $ajoutfestivalDAO = new ajoutfestivalDAO($servername, $username, $password, $database);
 

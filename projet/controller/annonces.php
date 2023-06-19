@@ -55,9 +55,9 @@ session_start();
 
 // Information de connexion sécurisée
 $servername = "localhost";
-$username = "qgkkqhfn_root";
-$password = "Grootr00to";
-$database = "qgkkqhfn_site";
+$username = "root";
+$password = "root";
+$database = "site";
 
 require_once "../modele/AnnoncesDAO.php";
 

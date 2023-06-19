@@ -22,7 +22,7 @@ if (isset($_SESSION['message'])) {
 } 
 
 require '../modele/config.php';
-require '../modele/UserDAO.php';
+require '../modele/userDAO.php';
 
 $userDAO = new UserDAO($pdo);
 

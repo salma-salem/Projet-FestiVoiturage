@@ -22,9 +22,9 @@ require_once '../modele/modifannonce.php';
 
 // Connexion à la base de données
 $servername = "localhost";
-$username = "qgkkqhfn_root";
-$password = "Grootr00to";
-$database = "qgkkqhfn_site";
+$username = "root";
+$password = "root";
+$database = "site";
 
 // Instancier le modèle avec la connexion PDO
 $utilisateurModel = new ModifannonceDAO($servername, $username, $password, $database);
