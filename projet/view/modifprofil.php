@@ -11,7 +11,7 @@
 session_start();
 
 require '../modele/config.php';
-require '../modele/UserDAO.php';
+require '../modele/userDAO.php';
 
 // Vérifier si la session est active
 if (!isset($_SESSION['username'])) {
