@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'BarbieFont';
+    src: url('font/Barbie-font.ttf') format('truetype');
+  }
+  
+  /* Body styles */
+  body {
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(image/background.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'BarbieFont', Arial, sans-serif;
+    text-align: center;
+  }
+  
+  /* Heading styles */
+  h1 {
+    color: #ff69b4;
+    font-size: 70px; /* Increase the font size */
+    margin-top: 100px; /* Increase the margin-top */
+  }
+  
+  /* Paragraph styles */
+  p {
+    color: #ff69b4;
+    font-size: 24px; /* Increase the font size */
+    line-height: 1; /* Increase the line height for better readability */
+  }
+  
+  /* Link styles */
+  a {
+    width: 200px;
+    padding: 50px O;
+    margin: 20px 10px;
+    border-radius: 25px;
+    color: #f4f1f3;
+    text-decoration: none;
+    font-size: 24px; /* Increase the font size */
+    border: 2px solid #ff1493;
+    background: transparent;
+    cursor: pointer;
+  }
+  
+  /* Link hover styles */
+  a:hover {
+    color: #ff1493;
+  }
+  
+  /* Barbie image styles */
+  .barbie-image {
+    display: block;
+    margin: 0 auto;
+    width: 300px; /* Increase the image width */
+    height: auto;
+  }
+  
+  /* Container styles */
+  .container {
+    margin-top: 100px; /* Increase the margin-top */
+  }
+
+  
+  
