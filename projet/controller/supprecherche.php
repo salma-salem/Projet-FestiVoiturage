@@ -20,9 +20,9 @@ require_once '../modele/supprecherche.php';
 
     //connexion a la base de donnee
 $servername = "localhost";
-$username = "root";
-$password = "root";
-$database = "site";
+$username = "qgkkqhfn_root";
+$password = "Grootr00to";
+$database = "qgkkqhfn_site";
 $compteModel = new CompteModel($servername, $username, $password, $database);
 
 if ($compteModel->supprimerRecherche($annonceId)) {

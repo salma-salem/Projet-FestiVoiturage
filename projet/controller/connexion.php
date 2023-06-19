@@ -27,9 +27,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' & isset($_POST['login']) & isset($_POS
 
     // Préparation des informations nécessaires à la connexion de la base de données
     $servername = "localhost";
-    $username = "root";
-    $password = "root";
-    $database = "site";
+$username = "qgkkqhfn_root";
+$password = "Grootr00to";
+$database = "qgkkqhfn_site";
 
     // Connexion à la base de données
     $ConnexionDAO = new ConnexionDAO($servername, $username, $password, $database);

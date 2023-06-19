@@ -27,9 +27,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $email = htmlspecialchars($_POST['email']);
 
     $servername = "localhost";
-    $username = "root";
-    $password = "root";
-    $database = "site";
+    $username = "qgkkqhfn_root";
+    $password = "Grootr00to";
+    $database = "qgkkqhfn_site";
 
     $InscriptionDAO = new InscriptionDAO($servername, $username, $password, $database);
 

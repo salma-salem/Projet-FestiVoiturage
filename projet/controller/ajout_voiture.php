@@ -34,9 +34,9 @@ $login = $_SESSION['username'];
 
 //information pour la connexion a la base de donnee
 $servername = "localhost";
-$username = "root";
-$password = "root";
-$database = "site";
+$username = "qgkkqhfn_root";
+$password = "Grootr00to";
+$database = "qgkkqhfn_site";
 
 $ajoutvoitureDAO = new ajoutvoitureDAO($servername, $username, $password, $database);
 

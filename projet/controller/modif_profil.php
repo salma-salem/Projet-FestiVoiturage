@@ -22,9 +22,9 @@ require_once '../modele/modif_profilDAO.php';
 
 // Connexion à la base de données
 $servername = "localhost";
-$username = "root";
-$password = "root";
-$database = "site";
+$username = "qgkkqhfn_root";
+$password = "Grootr00to";
+$database = "qgkkqhfn_site";
 
 // Instancier le modèle avec la connexion PDO
 $utilisateurModel = new ModifProfilDAO($servername, $username, $password, $database);

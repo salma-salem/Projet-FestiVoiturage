@@ -19,7 +19,7 @@ if (isset($_SESSION['message'])) {
 
     // Supprimer le message de la variable de session
     unset($_SESSION['message']);
-}
+} 
 
 require '../modele/config.php';
 require '../modele/UserDAO.php';

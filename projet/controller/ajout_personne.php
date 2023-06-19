@@ -41,9 +41,9 @@ $prenom=$user['prenom'];
 
 // information de connexion a la base de donner
 $servername = "localhost";
-$username = "root";
-$password = "root";
-$database = "site";
+$username = "qgkkqhfn_root";
+$password = "Grootr00to";
+$database = "qgkkqhfn_site";;
 
 $ajoutpersonneDAO = new ajoutpersonneDAO($servername, $username, $password, $database);
 

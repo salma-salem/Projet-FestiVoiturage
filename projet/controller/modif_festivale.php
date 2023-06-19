@@ -20,10 +20,9 @@ require_once '../modele/modif_festival.php';
 
 // Connexion à la base de données
 $servername = "localhost";
-$username = "root";
-$password = "root";
-$database = "site";
-
+$username = "qgkkqhfn_root";
+$password = "Grootr00to";
+$database = "qgkkqhfn_site";
 // Instancier le modèle avec la connexion PDO
 $utilisateurModel = new ModifestivalDAO($servername, $username, $password, $database);
 

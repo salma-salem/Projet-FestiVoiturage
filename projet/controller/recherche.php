@@ -10,9 +10,9 @@
     session_start();
 
     $servername = "localhost";
-    $username = "root";
-    $password = "root";
-    $database = "site";
+    $username = "qgkkqhfn_root";
+    $password = "Grootr00to";
+    $database = "qgkkqhfn_site";
 
     require_once "../modele/recherche_locationDAO.php";
 
