@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'BarbieFont';
+    src: url('font/Barbie-font.ttf') format('truetype');
+  }
+  
+  /* Body styles */
+  body {
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(image/background.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'BarbieFont', Arial, sans-serif;
+    text-align: center;
+    color: #f8e8f8;
+  }
+  
+  /* Heading styles */
+  h1 {
+    color: #ff69b4;
+    font-size: 70px;
+    margin-top: 100px;
+  }
+  
+  /* Paragraph styles */
+  p {
+    color: #ff69b4;
+    font-size: 24px;
+    line-height: 1;
+  }
+  
+  /* Link styles */
+  a {
+    display: inline-block;
+    width: 50px;
+    padding: 10px;
+    margin: 10px 5px;
+    border-radius: 12px;
+    color:#f4f1f3 ;
+    text-decoration: none;
+    font-size: 15px;
+    border: 2px solid #ff1493;
+    background: transparent;
+    cursor: pointer;
+  }
+  
+  /* Link hover styles */
+  a:hover {
+    color: #ff1493;
+  }
+  
+  /* Table styles */
+  table {
+    margin-top: 20px 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  th, td {
+    background-color: #ff1493;
+    color: #270114;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f8e8f8;
+    color: #ff69b4;
+    padding: 12px, 15px;
+  }
+  
+  /* Form styles */
+  .form-group {
+    margin-top: 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .form-control {
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Result search styles */
+  #result-search {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    color: #f8e8f8;
+  }
+  

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="../css/v2.css" rel="stylesheet">
+  <title> Test de connexion </title>
+</head>
+<body>
+
+<?php
+// Vérifiez si une session est active
+session_start();
+
+if (isset($_SESSION['username'])) {
+  echo 'connected';
+  // Déconnexion de l'utilisateur en supprimant la session et le cookie
+  setcookie(session_name(), '', time() - 3600, '/');
+  session_destroy();
+} else {
+  echo 'disconnected';
+}
+?>
+
+</body>
+</html>
